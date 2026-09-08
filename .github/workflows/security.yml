@@ -1,0 +1,16 @@
+name: Security Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run Security Scan Action
+        uses: Composite-Action-Pair/security-scan-action@main
