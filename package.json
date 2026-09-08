@@ -1,0 +1,24 @@
+{
+  "name": "app-one",
+  "version": "1.0.0",
+  "description": "Node.js sample app for security scanning demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Composite-Action-Pair/app-one.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Composite-Action-Pair/app-one/issues"
+  },
+  "homepage": "https://github.com/Composite-Action-Pair/app-one#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
