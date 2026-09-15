@@ -14,3 +14,7 @@ jobs:
 
       - name: Run Security Scan Action
         uses: Composite-Action-Pair/security-scan-action@main
+        with:
+          dojo-url: ${{ secrets.DEFECTDOJO_URL }}
+          dojo-api-token: ${{ secrets.DEFECTDOJO_API_KEY }}
+          product-name: app-one
