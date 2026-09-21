@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/Composite-Action-Pair/app-one#readme",
   "dependencies": {
-    "express": "5.0.0"
+    "express": "5.2.1"
   }
 }
