@@ -1,2 +1,6 @@
 node_modules/
 npm-audit-report.json
+
+syft-tool/
+syft.zip
+node_modules/

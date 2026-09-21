@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello from app-one! This is a demo Node.js app for security scanning.');
+  res.send('Hello from app-one v2! Blue-Green deployment works 🚀');
 });
 
 app.listen(PORT, () => {

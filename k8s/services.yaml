@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: app-one-active
+  labels:
+    app: app-one
+spec:
+  type: ClusterIP
+  ports:
+    - port: 80
+      targetPort: 3000
+  selector:
+    app: app-one
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: app-one-preview
+  labels:
+    app: app-one
+spec:
+  type: ClusterIP
+  ports:
+    - port: 80
+      targetPort: 3000
+  selector:
+    app: app-one
